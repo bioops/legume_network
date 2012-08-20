@@ -1,0 +1,14 @@
+# temp files                                                                   
+/tmp/
+
+# original data files
+/data/
+
+# results files
+/result/
+
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
