@@ -7,8 +7,12 @@
 # results files
 /result/
 
+# softwores
+/app/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# hiden files
+.*
+
+# including gitignore
+!.gitignore
+
