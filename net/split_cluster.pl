@@ -47,20 +47,28 @@ sub print_isorank{
     print_tab($colors[$i],$i);
   }
   print_set(@colors); 
-#  print_blast(@colors);
+  print_blast(@colors);
 }
 
-#sub print_blast{
-#  my (@colors)=@_;
-#  for (my $i=0;$i<$num_species; $i++){
-#    for (my $i=$j;$j<$num_species; $j++){
-#      my $file=$species[$i].$color[$i].'-'.$species[$j].$color[$j].'.evals';
-#      open (TEMPIN,">$file") or die ("no $file !");
-#      
-#      close TEMPIN;
-#    }
-#  }
-#}
+sub print_blast{
+  my (@colors)=@_;
+  for (my $i=0; $i<$num_species; $i++){
+    for (my $j=$i; $j<$num_species; $j++){
+      my $file='../tmp/'.$species[$i].$colors[$i].'-'.$species[$j].$colors[$j].'.evals';
+      open (TEMPOUT,">$file") or die ("no $file !");
+      my @genesi=@{$cluster[$i]->{$colors[$i]}};
+      my @genesj=@{$cluster[$j]->{$colors[$j]}};
+      foreach my $genei (@genesi){
+        foreach my $genej (@genesj){
+          if(defined($blast_all{$genei}->{$genej})){
+            print TEMPOUT "$genei\t$genej\t$blast_all{$genei}->{$genej}\n"; 
+          }
+        }
+      }
+      close TEMPOUT;
+    }
+  }
+}
 
 
 sub print_set{
@@ -72,26 +80,26 @@ sub print_set{
   $dir=$dir.'tmp';
   print TEMPIN "$dir\n-\n$num_species\n";
   for (my $i=0;$i<$num_species; $i++){
-    print TEMPIN "$species[$i]\n";
+    print TEMPIN "$species[$i]$colors[$i]\n";
   }
 }
 
 sub print_tab{ 
   my ($color,$species_num)=@_;
-  my $file='../tmp/'.$species[$species_num].'.tab';
+  my $file='../tmp/'.$species[$species_num].$color.'.tab';
   my (%inter,$cluster);
   my %inter_each=%{$inter[$species_num]};
   my @genes=@{$cluster[$species_num]->{$color}};
-  open (TEMPIN,">$file") or die ("no $file !");
-  print TEMPIN "INTERACTOR_A\tINTERACTOR_B\n";
+  open (TEMPOUT,">$file") or die ("no $file !");
+  print TEMPOUT "INTERACTOR_A\tINTERACTOR_B\n";
   for (my $i=0; $i<(scalar @genes)-1;$i++){
     for (my $j=$i+1;$j<scalar @genes;$j++){
       if(defined($inter_each{$genes[$i]}->{$genes[$j]})){
-        print TEMPIN "$genes[$i]\t$genes[$j]\n";
+        print TEMPOUT "$genes[$i]\t$genes[$j]\n";
       }
     }
   }
-  close TEMPIN;
+  close TEMPOUT;
 }
 
 sub get_clusters{
