@@ -35,10 +35,12 @@ LOOP:foreach my $each_tuple (@tuples){
   if(compare_multi_clusters(@each_cluster_comb)){
     $count++;
     print_isorank(@{$each_tuple});
-    print "found one!\n";
-    last LOOP;
+    #iprint "found one!\n";
+    #last LOOP;
   }
 }
+
+print "$count\n";
 
 sub print_isorank{
   my (@colors)=@_;
