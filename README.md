@@ -35,7 +35,7 @@ medicago, soybean, commonbean and lotus
   *  raw data: (http://www.ebi.ac.uk/arrayexpress/experiments/E-MEXP-1726)
   *  paper: NA
   *  samples: 15\*3=45 
-
+* Genome assembly and annotation: 
 
 
  
