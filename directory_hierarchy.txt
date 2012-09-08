@@ -1,0 +1,29 @@
+
+/data/yupengli/legume_network
+   .
+   |-app
+   |-data
+   |---blast
+   |---lotus
+   |-----genome
+   |-------annotation
+   |-------assembly
+   |-----microarray
+   |---medicago
+   |-----genome
+   |-------annotation
+   |-------assembly
+   |-----microarray
+   |-------raw
+   |---soybean
+   |-----genome
+   |-------annotation
+   |-------assembly
+   |-----microarray
+   |-------raw
+   |-meta
+   |-net
+   |-prepare
+   |-result
+   |-tmp
+

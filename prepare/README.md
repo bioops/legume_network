@@ -1,6 +1,6 @@
 # scripts for data preparation
 
-## correct genes in fasta file of peptides or cds
+## correct gene names of in fasta file
 
 *  discard alternative splicing. e.g. for gene "Glyma0021s00410", only keep "Glyma0021s00410.1" and remove "Glyma0021s00410.n" (n>1)
 *  change the fasta head. e.g. for gene "Glyma0021s00410", the kept gene ">Glyma0021s00410.1|PACid:16242639" was change to ">Glyma0021s00410"
@@ -40,5 +40,23 @@ run:
 	-num_threads 10 \
 	-outfmt '6 qseqid sseqid pident qlen length mismatch gapopen qstart qend sstart send evalue bitscore' \
 	-max_target_seqs 10
+
+## parse microarray .cel files and output the normalized gene \(probe\) expression levels
+
+* using affy bioconductor package to parse .cel files
+* RMA normalization
+* output the normalized expression values
+
+Since lotus microarray is custom designed, the bioconductor doesn't have lotus cdf package. We built our own cdf package using makecdfenv package from the microarray design cdf file, which is availble on [ArrayExpress](http://www.ebi.ac.uk/arrayexpress/files/A-AFFY-90/A-AFFY-90.cdf.zip).
+
+run \(Check out the R scipt for details, and make sure all settings are correct. It might be better to interactively run the script step by step\):
+
+	Rscript install_cdf.r ../data/lotus/microarray/ Lotus1a520343.cdf lotus
+	R CMD INSTALL ../data/lotus/microarray/lotus1a520343.cdf
+        Rscript parse_cel.r lotus ../data/lotus/microarray/raw/
+	Rscript parse_cel.r medicago ../data/medicago/microarray/raw/
+        Rscript parse_cel.r soybean ../data/soybean/microarray/raw/
+
+## associate microarray probe with annotated genes in reference genomes
 
 
