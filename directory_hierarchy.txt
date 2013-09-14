@@ -9,6 +9,11 @@
    |-------annotation
    |-------assembly
    |-----microarray
+   |-------lotus1a520343cdf
+   |---------data
+   |---------man
+   |---------R
+   |-------raw
    |---medicago
    |-----genome
    |-------annotation

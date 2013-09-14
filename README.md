@@ -14,7 +14,7 @@ all data file were stored in ./data directory.
 
 *  expression data (microarray)
   *  platform: Affymetrix GeneChip Soybean Genome Array
-  *  [annotation](http://www.affymetrix.com/Auth/analysis/downloads/na32/ivt/Soybean.na32.annot.csv.zip)
+  *  [MetAffx annotation](http://www.affymetrix.com/Auth/analysis/downloads/na32/ivt/Soybean.na32.annot.csv.zip)
   *  [raw data 1](http://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-26198)
   *  [paper 1](http://onlinelibrary.wiley.com/doi/10.1111/j.1365-3040.2011.02347.x/full)
   *  samples 1: 4\*4 leaf
@@ -27,7 +27,7 @@ all data file were stored in ./data directory.
 
 *  expression data (microarray)
   *  platform: Affymetrix GeneChip Medicago Genome Array
-  *  [annotation](http://www.affymetrix.com/Auth/analysis/downloads/na32/ivt/Medicago.na32.annot.csv.zip)
+  *  [NetAffx annotation](http://www.affymetrix.com/Auth/analysis/downloads/na32/ivt/Medicago.na32.annot.csv.zip)
   *  [raw data](http://www.ebi.ac.uk/arrayexpress/experiments/E-MEXP-1097) 
   *  [paper](http://www.ncbi.nlm.nih.gov/pubmed/18410479)
   *  samples: 18\*3=54
@@ -36,7 +36,8 @@ all data file were stored in ./data directory.
 ### lotus
 *  expression data (microarray)
   *  platform: Affymetrix Custom Array - Lotus1a520343
-  *  annotation: NA
+  *  NetAffx annotation: NA
+  *  [ArrayDesign XML](http://www.ebi.ac.uk/arrayexpress/files/A-AFFY-90/A-AFFY-90.mageml.tar.gz)
   *  [raw data](http://www.ebi.ac.uk/arrayexpress/experiments/E-MEXP-1726)
   *  paper: NA
   *  samples: 15\*3=45 
