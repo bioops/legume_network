@@ -1,0 +1,755 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+<title>A_Example_SpeCond_results.html</title>
+
+
+
+</head>
+<body><center><h1>Tissue specific results</h1></center><h2>Parameter set used to detect the specific condition(s)</h2><table style="text-align:center; border-collapse:collapse" border="1">
+<tr>
+<td width="75px"></td><td bgcolor="#9af" width="75px">beta</td><td bgcolor="#9af" width="75px">lambda</td><td bgcolor="#9af" width="75px">per</td><td bgcolor="#9af" width="75px">md</td><td bgcolor="#9af" width="75px">mlk</td><td bgcolor="#9af" width="75px">rsd</td><td bgcolor="#9af" width="75px">pv</td></tr>
+<tr>
+<td>Step 1</td><td>6</td><td>1</td><td>0.1</td><td>0.75</td><td>5</td><td>0.1</td><td>0.05</td></tr>
+<tr>
+<td>Step 2</td><td>0</td><td>1</td><td>0.3</td><td>0.75</td><td>25</td><td>0.1</td><td>0.05</td></tr>
+</table>
+<br/>
+Table 1: The parameter set used for the analysis<br/>
+<h2>Specific genes - conditions</h2><table style="text-align:center; border-collapse:collapse" border="1">
+<tr>
+<td width="100px"># conditions</td><td bgcolor="#9af" width="50px">1</td><td bgcolor="#9af" width="50px">2</td><td bgcolor="#9af" width="50px">3</td><td bgcolor="#9af" width="50px">4</td><td bgcolor="#9af" width="50px">5</td><td bgcolor="#9af" width="50px">6</td><td bgcolor="#9af" width="50px">7</td><td bgcolor="#9af" width="50px">8</td><td bgcolor="#9af" width="50px">10</td><td bgcolor="#9af" width="50px">11</td><td bgcolor="#9af" width="50px">12</td><td bgcolor="#9af" width="50px">13</td><td bgcolor="#9af" width="50px">14</td><td bgcolor="#9af" width="50px">15</td><td bgcolor="#9af" width="50px">20</td><td bgcolor="#9af" width="50px">21</td><td bgcolor="#9af" width="50px">24</td><td bgcolor="#9af" width="50px">25</td><td bgcolor="#9af" width="50px">26</td><td bgcolor="#9af" width="50px">28</td><td bgcolor="#9af" width="50px">30</td><td bgcolor="#9af" width="50px">31</td><td bgcolor="#9af" width="50px">33</td><td bgcolor="#9af" width="50px">34</td><td bgcolor="#9af" width="50px">35</td><td bgcolor="#9af" width="50px">36</td><td bgcolor="#9af" width="50px">37</td><td bgcolor="#9af" width="50px">38</td><td bgcolor="#9af" width="50px">39</td><td bgcolor="#9af" width="50px">40</td><td bgcolor="#9af" width="50px">41</td><td bgcolor="#9af" width="50px">42</td><td bgcolor="#9af" width="50px">43</td><td bgcolor="#9af" width="50px">-</td><td bgcolor="#9af" width="50px">sum</td></tr>
+<tr>
+<td># genes</td><td>26</td><td>3</td><td>4</td><td>32</td><td>9</td><td>4</td><td>23</td><td>11</td><td>1</td><td>11</td><td>7</td><td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>3</td><td>1</td><td>8</td><td>2</td><td>3</td><td>1</td><td>2</td><td>2</td><td>3</td><td>4</td><td>2</td><td>1</td><td>-</td><td>175</td></tr>
+</table>
+<br/>
+Table 2: Number of genes detected as specific in the different number of conditions<br/>
+<img border="0" src="A_General_Result/A_barplot_nb_tissue_nb_genes.png" alt="A_General_Result/A_barplot_nb_tissue_nb_genes.png"></img><br/>
+Figure 1: Barplot representing the number of specific genes (y axis) in function of the number of their specific condition (x axis)<br/>
+<img border="0" src="A_General_Result/A_nb_specific_gene_in_condition.png" alt="A_General_Result/A_nb_specific_gene_in_condition.png"></img><br/>
+Figure 2: The number of specific genes detected in each of the conditions<br/>
+<h2>Heatmap representation</h2><h3>Profiles; 0,1 or -1 values</h3><center><img border="0" src="A_General_Result/A_profile_heatmap.png" alt="A_General_Result/A_profile_heatmap.png"></img></center>Figure 3: Profile heatmap representing the gene specificity (y axis) over the conditions (x axis), the colors correspond to the specific level; red, white, blue: down (-1), non (0), up (1) specific or just non (0) and specific (1) (red and blue respectively) if only two colors are present<br/>
+<h2>Specific genes table result</h2><table border="0">
+<tr>
+<td><center><table style="border-collapse: collapse; text-align:center;" border="1">
+<tr>
+<td bgcolor="#ffffaa" style="text-align:center">Gene</td><td bgcolor="#ffffaa" style="text-align:center">Type</td><td bgcolor="#ffffaa" style="text-align:center"># condition specific</td><td bgcolor="#ffffaa" style="text-align:center"># condition up</td><td bgcolor="#ffffaa" style="text-align:center"># condition down</td><td bgcolor="#ffffaa" style="text-align:center">Condition up</td><td bgcolor="#ffffaa" style="text-align:center">Condition down</td></tr>
+<tr>
+<td style="text-align:center">Mtr.10126.1.S1_at</td><td>S</td><td>34</td><td>34</td><td>0</td><td>Nod_zone2,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,RT_LCM_cortical,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,A17_LimN,Root_A17_5d_seedling_3dpi_Sinorhizobium,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.10303.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.10315.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.10361.1.S1_at</td><td>S</td><td>8</td><td>0</td><td>8</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT</td></tr>
+<tr>
+<td style="text-align:center">Mtr.10449.1.S1_at</td><td>S</td><td>8</td><td>0</td><td>8</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.10586.1.S1_at</td><td>S</td><td>8</td><td>0</td><td>8</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.10590.1.S1_at</td><td>S</td><td>7</td><td>0</td><td>7</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.10655.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.11124.1.S1_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,NOOT_NF2717</td></tr>
+<tr>
+<td style="text-align:center">Mtr.11558.1.S1_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>Nod_zone2,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.11840.1.S1_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>RT_LCM_arbuscular</td></tr>
+<tr>
+<td style="text-align:center">Mtr.11848.1.S1_at</td><td>S</td><td>38</td><td>38</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_DeNod_28dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,RT_LCM_cortical,RT_LCM_adjacent,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.11988.1.S1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>GiantCell</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.12216.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.12262.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.12270.1.S1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>RT_LCM_arbuscular</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.12358.1.S1_at</td><td>S</td><td>21</td><td>21</td><td>0</td><td>RT_Tip_sickle_0hpi,RT_LCM_adjacent,Root_non_Myc_control_6wk_20_uM_P,Root_non_Myc_6wk_2_mM_P,Root_28dpi_Myc_G_intraradices_6wk_20_uM_P,RT_2ds_Sdl_culture_180mM_NaCl_6h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_1h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_2h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_5h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_10h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_24h,RT_Whole,RT_BC,RT_drought_2d,RT_drought_3d,RT_drought_4d,RT_drought_7d,RT_drought_10d,RT_drought_14d,RT_drought_14d_rewatered_1d,RT_watered_4d</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.12570.1.S1_at</td><td>S</td><td>34</td><td>34</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.12572.1.S1_at</td><td>S</td><td>14</td><td>4</td><td>10</td><td>RT_drought_4d,RT_drought_7d,RT_drought_10d,RT_drought_14d</td><td>RT_Myc_3wks_infection,GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.12730.1.S1_at</td><td>S</td><td>7</td><td>0</td><td>7</td><td>-</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td></tr>
+<tr>
+<td style="text-align:center">Mtr.12792.1.S1_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB</td></tr>
+<tr>
+<td style="text-align:center">Mtr.12848.1.S1_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_CRR_96hpi</td></tr>
+<tr>
+<td style="text-align:center">Mtr.12896.1.S1_s_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>RT_LCM_cortical</td></tr>
+<tr>
+<td style="text-align:center">Mtr.13163.1.S1_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>RT_Myc_3wks_infection,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.13302.1.S1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>RT_BC</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.13316.1.S1_at</td><td>S</td><td>12</td><td>4</td><td>8</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.13436.1.S1_at</td><td>S</td><td>26</td><td>26</td><td>0</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Root_non_Myc_6wk_2_mM_P,RT_2ds_Sdl_culture_180mM_NaCl_6h,RT_2ds_Sdl_culture_180mM_NaCl_24h,RT_2ds_Sdl_culture_180mM_NaCl_48h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_1h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_2h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_5h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_10h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_24h,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_Whole,RT_BC,RT_drought_3d,RT_drought_4d,RT_drought_7d,RT_drought_10d,RT_drought_14d</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.13930.1.S1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>GallTissue_GiantCell</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.13992.1.S1_at</td><td>S</td><td>24</td><td>24</td><td>0</td><td>Nod_zone2,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,A17_LimN,Root_A17_5d_seedling_3dpi_Sinorhizobium,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.1444.1.S1_at</td><td>S</td><td>12</td><td>3</td><td>9</td><td>RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_2ds_Sdl_culture_180mM_NaCl_0h,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.14950.1.S1_s_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>Nod_zone2</td></tr>
+<tr>
+<td style="text-align:center">Mtr.17058.1.S1_at</td><td>S</td><td>4</td><td>4</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.17106.1.S1_at</td><td>S</td><td>40</td><td>40</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_2wks_Sdl_Hydroponic_200mM_NaCl_0h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_1h,A17_LimN,Root_A17_5d_seedling_3dpi_Sinorhizobium,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_drought_2d,RT_drought_3d,RT_watered_d2,RT_watered_4d</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.1775.1.S1_s_at</td><td>S</td><td>37</td><td>37</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,Nod_zone2,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_drought_14d,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.17934.1.S1_s_at</td><td>S</td><td>43</td><td>43</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,Root,RT_DeNod_28dpi,RT_0dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_10dpi_control,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,RT_LCM_arbuscular,RT_LCM_cortical,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,sunn_LimN,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_drought_3d,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.20203.1.S1_s_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>Nod_zone2,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.20921.1.S1_at</td><td>S</td><td>7</td><td>0</td><td>7</td><td>-</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td></tr>
+<tr>
+<td style="text-align:center">Mtr.22136.1.S1_at</td><td>S</td><td>7</td><td>0</td><td>7</td><td>-</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td></tr>
+<tr>
+<td style="text-align:center">Mtr.25097.1.S1_at</td><td>S</td><td>4</td><td>4</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.26238.1.S1_x_at</td><td>S</td><td>34</td><td>34</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,Nod_zone2,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_BC,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.26632.1.S1_at</td><td>S</td><td>36</td><td>36</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_2ds_Sdl_culture_180mM_NaCl_0h,RT_2ds_Sdl_culture_180mM_NaCl_6h,RT_2ds_Sdl_culture_180mM_NaCl_24h,RT_2ds_Sdl_culture_180mM_NaCl_48h,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_BC</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.26798.1.S1_at</td><td>S</td><td>8</td><td>4</td><td>4</td><td>GallTissue_GiantCell,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.26923.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.27299.1.S1_at</td><td>S</td><td>12</td><td>0</td><td>12</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,GallTissue_GiantCell,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.27421.1.S1_s_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>GallTissue_GiantCell</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.27521.1.S1_s_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>RT_Myc_3wks_infection</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.27609.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.27977.1.S1_s_at</td><td>S</td><td>12</td><td>5</td><td>7</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.28105.1.S1_at</td><td>S</td><td>8</td><td>0</td><td>8</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.28563.1.S1_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>GiantCell,GallTissue_GiantCell,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.28613.1.S1_at</td><td>S</td><td>11</td><td>0</td><td>11</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.29220.1.S1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>RT_BC</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.29550.1.S1_s_at</td><td>S</td><td>13</td><td>0</td><td>13</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,RT_LCM_arbuscular,RT_LCM_cortical,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.29708.1.S1_at</td><td>S</td><td>11</td><td>7</td><td>4</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.30178.1.S1_at</td><td>S</td><td>11</td><td>0</td><td>11</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.30885.1.S1_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.30965.1.S1_at</td><td>S</td><td>11</td><td>0</td><td>11</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.31219.1.S1_at</td><td>S</td><td>10</td><td>7</td><td>3</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>Nod_Naut1_SalsB,Nod_Sals4_SalsB,RT_BC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.31452.1.S1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod_Naut1_SalsB</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.31619.1.S1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>RT_BC</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.32013.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.32072.1.S1_s_at</td><td>S</td><td>36</td><td>36</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,RT_LCM_cortical,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Root_A17_5d_seedling_3dpi_Sinorhizobium,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_drought_3d,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.3209.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.32347.1.S1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>GiantCell</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.3236.1.S1_at</td><td>S</td><td>34</td><td>34</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,RT_DeNod_28dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.3241.1.S1_at</td><td>S</td><td>34</td><td>34</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,RT_DeNod_28dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.3244.1.S1_s_at</td><td>S</td><td>40</td><td>40</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,Root,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_2wks_Sdl_Hydroponic_200mM_NaCl_1h,sunn_LimN,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_drought_3d,RT_drought_14d,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.3244.1.S1_x_at</td><td>S</td><td>41</td><td>41</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,Root,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,RT_LCM_cortical,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_2wks_Sdl_Hydroponic_200mM_NaCl_1h,sunn_LimN,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_drought_3d,RT_drought_14d,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.3269.1.S1_at</td><td>S</td><td>40</td><td>40</td><td>0</td><td>RT_Myc_3wks_infection,GallTissue_GiantCell,Nod_zone2,Root,RT_DeNod_28dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,RT_LCM_arbuscular,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,sunn_LimN,Root_sunn_2_skl_5d_seedling_4h_Nod_factor,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_drought_3d,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.32889.1.S1_at</td><td>S</td><td>6</td><td>0</td><td>6</td><td>-</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td></tr>
+<tr>
+<td style="text-align:center">Mtr.331.1.S1_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>Nod_zone2</td></tr>
+<tr>
+<td style="text-align:center">Mtr.33151.1.S1_at</td><td>S</td><td>8</td><td>8</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.33280.1.S1_at</td><td>S</td><td>7</td><td>0</td><td>7</td><td>-</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td></tr>
+<tr>
+<td style="text-align:center">Mtr.3346.1.S1_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.338.1.S1_at</td><td>S</td><td>34</td><td>34</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_2wks_Sdl_Hydroponic_200mM_NaCl_1h,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_drought_3d</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.34397.1.S1_at</td><td>S</td><td>7</td><td>0</td><td>7</td><td>-</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td></tr>
+<tr>
+<td style="text-align:center">Mtr.34603.1.S1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.34689.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.3478.1.S1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>RT_Myc_3wks_infection</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.34954.1.S1_s_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>GallTissue_GiantCell</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.35090.1.S1_at</td><td>S</td><td>4</td><td>4</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.35263.1.S1_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>GallTissue_GiantCell,Nod_zone2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.35463.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.35758.1.S1_at</td><td>S</td><td>15</td><td>5</td><td>10</td><td>Nod_R108,NOOT_NF2717,NOOT_TNK507,Nod_phosphinothricin_4h,Nodule_20d_4h_PPT</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.35774.1.S1_at</td><td>S</td><td>7</td><td>1</td><td>6</td><td>RT_BC</td><td>GallTissue_GiantCell,Nod_zone2,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.35793.1.S1_at</td><td>S</td><td>11</td><td>0</td><td>11</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.35829.1.S1_at</td><td>S</td><td>35</td><td>35</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,A17_LimN,Root_A17_5d_seedling_3dpi_Sinorhizobium,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_drought_3d</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.35902.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.35935.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.36167.1.S1_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.36254.1.S1_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.36942.1.S1_at</td><td>S</td><td>8</td><td>0</td><td>8</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.37366.1.S1_at</td><td>S</td><td>2</td><td>0</td><td>2</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi</td></tr>
+<tr>
+<td style="text-align:center">Mtr.37506.1.S1_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>RT_LCM_arbuscular,RT_LCM_adjacent,RT_AM_Inf,Root_28dpi_Myc_G_intraradices_6wk_20_uM_P,Root_28dpi_Myc_G_mosseae_6wk_20_uM_P,HairyRoot_WT_Myc_Infect,Root_A17_inoculated_with_Gigaspora_early_contact</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.37535.1.S1_at</td><td>S</td><td>28</td><td>28</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,RT_DeNod_28dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.37556.1.S1_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>RT_Myc_3wks_infection</td></tr>
+<tr>
+<td style="text-align:center">Mtr.37583.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.37792.1.S1_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>Nod_Naut1_SalsB</td></tr>
+<tr>
+<td style="text-align:center">Mtr.38080.1.S1_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>GiantCell,GallTissue_GiantCell,Nod_zone2</td></tr>
+<tr>
+<td style="text-align:center">Mtr.38159.1.S1_s_at</td><td>S</td><td>11</td><td>0</td><td>11</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.38493.1.S1_at</td><td>S</td><td>33</td><td>30</td><td>3</td><td>RT_Myc_3wks_infection,Nod_zone2,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,RT_LCM_adjacent,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi</td></tr>
+<tr>
+<td style="text-align:center">Mtr.38512.1.S1_at</td><td>S</td><td>7</td><td>0</td><td>7</td><td>-</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td></tr>
+<tr>
+<td style="text-align:center">Mtr.38545.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.386.1.S1_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular</td></tr>
+<tr>
+<td style="text-align:center">Mtr.38955.1.S1_s_at</td><td>S</td><td>42</td><td>42</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,Root,RT_DeNod_28dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,sunn_LimN,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_drought_3d,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.39178.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.39216.1.S1_at</td><td>S</td><td>35</td><td>35</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_2wks_Sdl_Hydroponic_200mM_NaCl_1h,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_BC,RT_drought_3d,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.39439.1.S1_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.40083.1.S1_at</td><td>S</td><td>41</td><td>41</td><td>0</td><td>RT_Myc_3wks_infection,GallTissue_GiantCell,Nod_zone2,Root,RT_DeNod_28dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,sunn_LimN,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_drought_3d,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.40136.1.S1_at</td><td>S</td><td>20</td><td>0</td><td>20</td><td>-</td><td>RT_Myc_3wks_infection,GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_adjacent,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_2ds_Sdl_culture_180mM_NaCl_48h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_2h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_5h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_10h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_24h,RT_A17_NPA_1d,RT_A17_NPA_7d,RT_A17_TIBA_7d,RT_A17_TIBA_1d,Nod_phosphinothricin_8h,Nodule_20d_8h_PPT</td></tr>
+<tr>
+<td style="text-align:center">Mtr.40180.1.S1_at</td><td>S</td><td>42</td><td>42</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,Nod_zone2,Root,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_6dpi_control,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent,Nod_Sals4_SalsC,RT_2wks_Sdl_Hydroponic_200mM_NaCl_1h,sunn_LimN,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_drought_3d,RT_drought_14d,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.40395.1.S1_at</td><td>S</td><td>38</td><td>38</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_2wks_Sdl_Hydroponic_200mM_NaCl_1h,A17_LimN,Root_A17_5d_seedling_3dpi_Sinorhizobium,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_drought_3d,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.40693.1.S1_s_at</td><td>S</td><td>7</td><td>0</td><td>7</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.40731.1.S1_at</td><td>S</td><td>31</td><td>31</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,RT_DeNod_28dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.40817.1.S1_at</td><td>S</td><td>36</td><td>36</td><td>0</td><td>RT_Myc_3wks_infection,GallTissue_GiantCell,Nod_zone2,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,RT_LCM_arbuscular,RT_LCM_cortical,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_BC,RT_drought_3d,RT_drought_14d,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.41024.1.S1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>GiantCell</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.41075.1.S1_at</td><td>S</td><td>13</td><td>0</td><td>13</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,GiantCell,Nod_zone2,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.41126.1.S1_at</td><td>S</td><td>11</td><td>0</td><td>11</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.41291.1.S1_at</td><td>S</td><td>4</td><td>4</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.41761.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.42348.1.S1_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>GiantCell,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.4240.1.S1_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.4253.1.S1_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.4266.1.S1_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.42844.1.S1_at</td><td>S</td><td>31</td><td>31</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.42875.1.S1_s_at</td><td>S</td><td>41</td><td>41</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,Root,RT_DeNod_28dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Root_28dpi_Myc_G_mosseae_6wk_20_uM_P,sunn_LimN,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_drought_3d,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.42936.1.S1_at</td><td>S</td><td>8</td><td>8</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.43052.1.S1_s_at</td><td>S</td><td>12</td><td>0</td><td>12</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,Nod_zone2,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.43053.1.S1_at</td><td>S</td><td>11</td><td>0</td><td>11</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.43097.1.S1_at</td><td>S</td><td>2</td><td>0</td><td>2</td><td>-</td><td>GiantCell,GallTissue_GiantCell</td></tr>
+<tr>
+<td style="text-align:center">Mtr.43103.1.S1_s_at</td><td>S</td><td>30</td><td>30</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.43106.1.S1_at</td><td>S</td><td>39</td><td>39</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_2ds_Sdl_culture_180mM_NaCl_48h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_1h,A17_LimN,Root_A17_5d_seedling_3dpi_Sinorhizobium,Root_sunn_2_skl_5d_seedling_4h_Mock,Root_sunn_2_skl_5d_seedling_4h_Nod_factor,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_drought_3d</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.43232.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.43465.1.S1_at</td><td>S</td><td>39</td><td>39</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,Root,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_14dpi_control,Root_20dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.43484.1.S1_at</td><td>S</td><td>8</td><td>0</td><td>8</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.43526.1.S1_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>GiantCell,GallTissue_GiantCell,RT_LCM_arbuscular</td></tr>
+<tr>
+<td style="text-align:center">Mtr.43720.1.S1_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>Nod_zone2,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.43725.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.43903.1.S1_at</td><td>S</td><td>8</td><td>0</td><td>8</td><td>-</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.43905.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.44290.1.S1_at</td><td>S</td><td>7</td><td>0</td><td>7</td><td>-</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td></tr>
+<tr>
+<td style="text-align:center">Mtr.44301.1.S1_s_at</td><td>S</td><td>34</td><td>34</td><td>0</td><td>Nod_zone2,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,RT_LCM_arbuscular,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Root_28dpi_Myc_G_intraradices_6wk_20_uM_P,Root_28dpi_Myc_G_mosseae_6wk_20_uM_P,Root_sunn_2_skl_5d_seedling_24h_Nod_factor,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,RT_transgenic_TT2,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.44709.1.S1_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.44716.1.S1_at</td><td>S</td><td>31</td><td>31</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,RT_DeNod_28dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.45490.1.S1_at</td><td>S</td><td>4</td><td>4</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.45833.1.S1_s_at</td><td>S</td><td>7</td><td>0</td><td>7</td><td>-</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td></tr>
+<tr>
+<td style="text-align:center">Mtr.47549.1.S1_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.47975.1.S1_s_at</td><td>S</td><td>14</td><td>0</td><td>14</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,GiantCell,Nod_zone2,RT_LCM_cortical,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.48312.1.S1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod_zone2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.49161.1.S1_at</td><td>S</td><td>11</td><td>0</td><td>11</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.49594.1.S1_at</td><td>S</td><td>34</td><td>34</td><td>0</td><td>RT_Myc_3wks_infection,Nod_zone2,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,A17_LimN,Root_A17_5d_seedling_3dpi_Sinorhizobium,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.49773.1.S1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod_zone2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.50026.1.S1_at</td><td>S</td><td>41</td><td>41</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,Root,RT_DeNod_28dpi,Nod_4dpi,Nod_10dpi,Nod_14dpi,Nod_28dpi,Nod_16dpi_NO3,Root_meristem,Root_14dpi_control,Nod_6dpi,Nod_14dpi_C,Nod_10dpi_C,Nod_20dpi,RT_LCM_arbuscular,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_2wks_Sdl_Hydroponic_200mM_NaCl_1h,sunn_LimN,Nodule_A17_6dpi,Nodule_efd_6dpi,Nodule_ya1_hap2_6dpi,Nod_R108,NOOT_NF2717,NOOT_TNK507,RT_Nod_5WKS_SuffN2_N2S,RT_Nod_5WKS_LimtN2_N2C,Nodule_20d,Nod_phosphinothricin_0h,Nod_phosphinothricin_4h,Nod_phosphinothricin_8h,Nod_phosphinothricin_24h,Nodule_20d_4h_PPT,Nodule_20d_8h_PPT,Nodule_20d_24h_PPT,RT_drought_3d,RT_drought_14d,RT_watered_d2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.50675.1.S1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>RT_BC</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.52301.1.S1_s_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td></tr>
+<tr>
+<td style="text-align:center">Mtr.5823.1.S1_a_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.5956.1.S1_s_at</td><td>S</td><td>25</td><td>25</td><td>0</td><td>RT_Tip_sickle_0hpi,Root_non_Myc_control_6wk_20_uM_P,Root_non_Myc_6wk_2_mM_P,Root_28dpi_Myc_G_intraradices_6wk_20_uM_P,RT_3mm_tip,RT_2ds_Sdl_culture_180mM_NaCl_0h,RT_2ds_Sdl_culture_180mM_NaCl_6h,RT_2ds_Sdl_culture_180mM_NaCl_24h,RT_2ds_Sdl_culture_180mM_NaCl_48h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_1h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_2h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_5h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_10h,RT_2wks_Sdl_Hydroponic_200mM_NaCl_24h,Root_sunn_2_skl_5d_seedling_4h_Mock,RT_tip,RT_Whole,RT_BC,RT_drought_2d,RT_drought_3d,RT_drought_4d,RT_drought_7d,RT_drought_10d,RT_drought_14d,RT_watered_4d</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.6050.1.S1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>RT_Myc_3wks_infection</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.6090.1.S1_at</td><td>S</td><td>4</td><td>4</td><td>0</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.6639.1.S1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.6978.1.S1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>GiantCell</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.7004.1.S1_at</td><td>S</td><td>4</td><td>4</td><td>0</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.7296.1.S1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod_zone2</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.7336.1.S1_at</td><td>S</td><td>12</td><td>3</td><td>9</td><td>RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108</td></tr>
+<tr>
+<td style="text-align:center">Mtr.7371.1.S1_s_at</td><td>S</td><td>12</td><td>0</td><td>12</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,Root_A17_control,HairyRoot_WT_Myc_CK,HairyRoot_WT_Myc_Infect,Root_A17_inoculated_with_Gigaspora_early_contact,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.7508.1.S1_at</td><td>S</td><td>8</td><td>0</td><td>8</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.7891.1.S1_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.7990.1.S1_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Mtr.8611.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+<tr>
+<td style="text-align:center">Mtr.8925.1.S1_s_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>RT_LCM_adjacent</td></tr>
+<tr>
+<td style="text-align:center">Mtr.9030.1.S1_at</td><td>S</td><td>6</td><td>0</td><td>6</td><td>-</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,Nod_zone2,RT_LCM_arbuscular,RT_LCM_cortical</td></tr>
+<tr>
+<td style="text-align:center">Mtr.9344.1.S1_at</td><td>S</td><td>11</td><td>0</td><td>11</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.9344.1.S1_x_at</td><td>S</td><td>11</td><td>0</td><td>11</td><td>-</td><td>RT_Tip_F83005_5_0hpi,RT_Tip_F83005_5_12hpi,RT_Tip_F83005_5_72hpi,Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC,RT_R108,Nod_R108,NOOT_NF2717,NOOT_TNK507</td></tr>
+<tr>
+<td style="text-align:center">Mtr.9608.1.S1_at</td><td>S</td><td>6</td><td>0</td><td>6</td><td>-</td><td>RT_Myc_3wks_infection,GiantCell,GallTissue_GiantCell,RT_LCM_arbuscular,RT_LCM_cortical,RT_LCM_adjacent</td></tr>
+<tr>
+<td style="text-align:center">Mtr.9976.1.S1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>Nod_Naut1_SalsC,Nod_Naut1_SalsB,Nod_Sals4_SalsB,Nod_Sals4_SalsC</td></tr>
+</table>
+</center><br/>
+</td><td><table style="border-collapse: collapse; text-align:center;" border="1">
+<tr>
+<td bgcolor="#ffffaa">Gene page*</td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+</table>
+<br/>
+</td></tr>
+</table>
+Table 3: Specific gene result: list of all the specific genes detected, the number of condition in which they are specific (all, up and down) and the respective condition names<br/>
+<br/>
+*, <span style="color:#FF8A00">NA ???: </span><span style="color:#0000ff">You can generate the gene result page(s) of the gene present in the above table with the "getGeneHtmlPage()" function. Using its result object as the  "gene.page.info" argument of the "getFullHtmlSpeCondResult()" function (function generating this page), you will have a direct link to the gene pages</span><br/>
+<br/>
+The corresponding file is : A_General_Result/A_result_specific_probeset.txt<br/>
+<br/>
+<br/>
+<span table.style="font-size:8pt">Page created by the  <a href="http://www.bioconductor.org/packages/release/bioc/">SpeCond</a>  package using hwriter under  R version 3.1.0 (2014-04-10)</span>
+<br/><br/><font size="-2">(Page generated on Sat Jun  7 11:10:54 2014 by <a href="http://www.embl.de/~gpau/hwriter/index.html">hwriter</a> 1.3)</font><br/>
+</body></html>

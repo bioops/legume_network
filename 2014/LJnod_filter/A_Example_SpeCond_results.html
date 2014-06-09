@@ -1,0 +1,1551 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+<title>A_Example_SpeCond_results.html</title>
+
+
+
+</head>
+<body><center><h1>Tissue specific results</h1></center><h2>Parameter set used to detect the specific condition(s)</h2><table style="text-align:center; border-collapse:collapse" border="1">
+<tr>
+<td width="75px"></td><td bgcolor="#9af" width="75px">beta</td><td bgcolor="#9af" width="75px">lambda</td><td bgcolor="#9af" width="75px">per</td><td bgcolor="#9af" width="75px">md</td><td bgcolor="#9af" width="75px">mlk</td><td bgcolor="#9af" width="75px">rsd</td><td bgcolor="#9af" width="75px">pv</td></tr>
+<tr>
+<td>Step 1</td><td>6</td><td>1</td><td>0.1</td><td>0.75</td><td>5</td><td>0.1</td><td>0.05</td></tr>
+<tr>
+<td>Step 2</td><td>0</td><td>1</td><td>0.3</td><td>0.75</td><td>25</td><td>0.1</td><td>0.05</td></tr>
+</table>
+<br/>
+Table 1: The parameter set used for the analysis<br/>
+<h2>Specific genes - conditions</h2><table style="text-align:center; border-collapse:collapse" border="1">
+<tr>
+<td width="100px"># conditions</td><td bgcolor="#9af" width="50px">1</td><td bgcolor="#9af" width="50px">2</td><td bgcolor="#9af" width="50px">3</td><td bgcolor="#9af" width="50px">4</td><td bgcolor="#9af" width="50px">5</td><td bgcolor="#9af" width="50px">6</td><td bgcolor="#9af" width="50px">7</td><td bgcolor="#9af" width="50px">8</td><td bgcolor="#9af" width="50px">9</td><td bgcolor="#9af" width="50px">10</td><td bgcolor="#9af" width="50px">11</td><td bgcolor="#9af" width="50px">-</td><td bgcolor="#9af" width="50px">sum</td></tr>
+<tr>
+<td># genes</td><td>68</td><td>30</td><td>61</td><td>106</td><td>34</td><td>42</td><td>16</td><td>9</td><td>5</td><td>2</td><td>1</td><td>-</td><td>374</td></tr>
+</table>
+<br/>
+Table 2: Number of genes detected as specific in the different number of conditions<br/>
+<img border="0" src="A_General_Result/A_barplot_nb_tissue_nb_genes.png" alt="A_General_Result/A_barplot_nb_tissue_nb_genes.png"></img><br/>
+Figure 1: Barplot representing the number of specific genes (y axis) in function of the number of their specific condition (x axis)<br/>
+<img border="0" src="A_General_Result/A_nb_specific_gene_in_condition.png" alt="A_General_Result/A_nb_specific_gene_in_condition.png"></img><br/>
+Figure 2: The number of specific genes detected in each of the conditions<br/>
+<h2>Heatmap representation</h2><h3>Profiles; 0,1 or -1 values</h3><center><img border="0" src="A_General_Result/A_profile_heatmap.png" alt="A_General_Result/A_profile_heatmap.png"></img></center>Figure 3: Profile heatmap representing the gene specificity (y axis) over the conditions (x axis), the colors correspond to the specific level; red, white, blue: down (-1), non (0), up (1) specific or just non (0) and specific (1) (red and blue respectively) if only two colors are present<br/>
+<h2>Specific genes table result</h2><table border="0">
+<tr>
+<td><center><table style="border-collapse: collapse; text-align:center;" border="1">
+<tr>
+<td bgcolor="#ffffaa" style="text-align:center">Gene</td><td bgcolor="#ffffaa" style="text-align:center">Type</td><td bgcolor="#ffffaa" style="text-align:center"># condition specific</td><td bgcolor="#ffffaa" style="text-align:center"># condition up</td><td bgcolor="#ffffaa" style="text-align:center"># condition down</td><td bgcolor="#ffffaa" style="text-align:center">Condition up</td><td bgcolor="#ffffaa" style="text-align:center">Condition down</td></tr>
+<tr>
+<td style="text-align:center">CAD31320.1_at</td><td>S</td><td>9</td><td>8</td><td>1</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Root,Root0h,Nod21</td><td>cyclops_root_3w_inocul_mean</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0109.14_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0117.28_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0121.10_s_at</td><td>S</td><td>5</td><td>5</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0122.11_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0122.82_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0147.88_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0163.1_at</td><td>S</td><td>8</td><td>8</td><td>0</td><td>WT_root_3w_inocul3,WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_rootSZ_3w_inocul1,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0163.26_s_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0171.71_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0233.55_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0284.25.2_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0295.2.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0315.47_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0316.13_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0398.5_s_at</td><td>S</td><td>6</td><td>0</td><td>6</td><td>-</td><td>WT_root_tip_3w_uninocul,WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0442.29.2_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0544.49_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0591.50_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">chr1.CM0955.14.1_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">chr1.TM1003.2.1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr1.TM1635.7_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>WT_rootSZ_3w_Nod_inocul1</td></tr>
+<tr>
+<td style="text-align:center">chr2.CM0018.74.3_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr2.CM0021.11.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>sen1_nodule_3w_inocul21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr2.CM0031.4_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">chr2.CM0102.65_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr2.CM0191.16_at</td><td>S</td><td>2</td><td>0</td><td>2</td><td>-</td><td>nup133_rootSZ_3w_uninocul,nup133_rootSZ_3w_inocul1</td></tr>
+<tr>
+<td style="text-align:center">chr2.CM0201.50_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr2.CM0201.51_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">chr2.CM0201.56.1_at</td><td>S</td><td>8</td><td>8</td><td>0</td><td>root_28dpimycorrhized,WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr2.CM0225.21.1_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr2.CM0249.13_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr2.CM0312.46_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">chr2.CM0545.26_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr2.CM0545.33_s_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr2.CM0904.37_at</td><td>S</td><td>6</td><td>0</td><td>6</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized,nfr1_rootSZ_3w_uninocul,nfr1_rootSZ_3w_inocul1</td></tr>
+<tr>
+<td style="text-align:center">chr2.TM0610.20.1_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr2.TM0610.20_s_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr2.TM0610.9_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr2.TM1561.13_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr3.CM0106.83_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr3.CM0116.49_at</td><td>S</td><td>9</td><td>9</td><td>0</td><td>root_4dpicontrol,root_28dpicontrol,root_28dpimycorrhized,WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr3.CM0135.15_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr3.CM0142.49_at</td><td>S</td><td>4</td><td>4</td><td>0</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr3.CM0152.1.1_s_at</td><td>S</td><td>8</td><td>8</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr3.CM0152.31_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr3.CM0160.50_at</td><td>S</td><td>5</td><td>1</td><td>4</td><td>Nod21</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr3.CM0164.13_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr3.CM0196.31_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr3.CM0226.42_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">chr3.CM0253.23.2_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr3.CM0282.28_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr3.TM0619.18.1_x_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr3.TM0916.11.2_at</td><td>S</td><td>10</td><td>10</td><td>0</td><td>har1_root_3w_inocul3,WT_root_3w_inocul3,WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,WT_rootSZ_3w_inocul1,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr3.TM1419.13.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0003.66_at</td><td>S</td><td>2</td><td>0</td><td>2</td><td>-</td><td>Root,Root0h</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0006.23_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0006.32_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0042.31_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0042.44_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized,WT_rootSZ_3w_Nod_inocul1</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0042.46_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0044.55_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0087.104_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>WT_root_tip_3w_uninocul</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0100.42.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0126.93_s_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0128.80_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0227.34_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0265.9_at</td><td>S</td><td>8</td><td>8</td><td>0</td><td>har1_root_3w_inocul3,WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0265.9_s_at</td><td>S</td><td>8</td><td>8</td><td>0</td><td>har1_root_3w_inocul3,WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0297.2_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0337.33.8_at</td><td>S</td><td>9</td><td>9</td><td>0</td><td>root_28dpimycorrhized,har1_root_3w_inocul3,WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0500.12_at</td><td>S</td><td>8</td><td>6</td><td>2</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>Root,Root0h</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0500.19_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0558.48_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0558.51_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0617.39_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">chr4.CM0739.32_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr4.TM1334.2_s_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr5.CM0052.4.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>WT_rootSZ_3w_Nod_inocul1</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr5.CM0071.111_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr5.CM0200.104.1_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">chr5.CM0200.125_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr5.CM0200.129_at</td><td>S</td><td>9</td><td>8</td><td>1</td><td>WT_root_tip_3w_uninocul,WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>Root0h</td></tr>
+<tr>
+<td style="text-align:center">chr5.CM0200.148_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>WT_rootSZ_3w_Nod_inocul1</td></tr>
+<tr>
+<td style="text-align:center">chr5.CM0239.47_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>sen1_nodule_3w_inocul21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr5.CM0328.24_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">chr5.CM0335.25.1_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">chr5.TM0389.17_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized,WT_rootSZ_3w_Nod_inocul1</td></tr>
+<tr>
+<td style="text-align:center">chr6.CM0037.24.1_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr6.CM0139.78_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">chr6.CM0140.6_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">chr6.CM0314.37_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr6.CM0539.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr6.CM0836.62_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">chr6.TM0756.2_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>root_28dpimycorrhized,sen1_nodule_3w_inocul21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr6.TM0957.14.1_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">chr6.TM1657.6_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">CM0300.5_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">CM0319.4_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">CM0905.18_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">CM1102.1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">CM1257.20_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">gi11065214_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>WT_rootSZ_3w_Nod_inocul1</td></tr>
+<tr>
+<td style="text-align:center">gi15189162_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">gi2367430_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">gi29966314_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">gi45352236_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">gi45352481_at</td><td>S</td><td>4</td><td>4</td><td>0</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">gi45354665_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">gi45396605_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">gi45398394_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">gi45413571_x_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>har1_root_3w_inocul3,cyclops_root_3w_uninocul_mean</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">gi45573269_at</td><td>S</td><td>4</td><td>4</td><td>0</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">gi45577883_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">gi45605265_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">gi45609297_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">gi45609677_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">gi45614135_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">gi45617661_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">gi45617661_x_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">gi45618245_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">gi45618277_at</td><td>S</td><td>2</td><td>0</td><td>2</td><td>-</td><td>Root,Root0h</td></tr>
+<tr>
+<td style="text-align:center">gi45620296_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">gi45620347_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">gi45620947_at</td><td>S</td><td>5</td><td>5</td><td>0</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized,WT_rootSZ_3w_Nod_inocul1</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">gi45625734_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">gi45626334_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">gi45627787_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>WT_root_3w_inocul3,Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">gi45631520_at</td><td>S</td><td>4</td><td>4</td><td>0</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">gi45631965_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">gi45636766_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">gi6325825_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">gi7720856_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">gi7780036_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">gi7781673_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_000355.0.1_s_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_000592.0.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>WT_rootSZ_3w_Nod_inocul1</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_002163.1_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_002348.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_002977.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_003534.1_s_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_004136.3_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_004953.1_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>har1_root_3w_uninocul,har1_root_3w_inocul3</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_005472.1_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_007097.2_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_007130.1_at</td><td>S</td><td>2</td><td>0</td><td>2</td><td>-</td><td>sen1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_007477.1.1_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_007800.1.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_008922.2_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_010352.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_010753.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_012199.1_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_012435.3_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_012919.2_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_013090.3_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_013283.2_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_013913.1_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_014939.1_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_015037.1_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_015289.3_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_015508.0.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_015527.4_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_015860.1_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_015904.1_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_016294.3_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_016377.1_s_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_016780.2_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_016780.2_x_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_016788.2_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_017279.1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_017296.0.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_017780.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_017840.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_017894.1.1_at</td><td>S</td><td>7</td><td>0</td><td>7</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized,WT_root_nodule_3w_inocul7,WT_rootSZ_3w_uninocul,WT_rootSZ_3w_Nod_inocul1</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_018554.2_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_018710.2_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_019501.0.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_019526.1_s_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_020466.1_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_020896.1_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_021206.1_s_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_021500.1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_022339.3_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_022570.2_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_023000.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_023562.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_023632.2_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_024000.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_024123.2_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_024445.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_024958.2_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_025034.1_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_025454.2_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_026562.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_026645.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_026840.1.1_at</td><td>S</td><td>6</td><td>2</td><td>4</td><td>Root,Root0h</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_026901.2_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_027010.1_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_027208.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_027769.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_028761.1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_029365.1_s_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_030467.2_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_030576.1_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_030735.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_031342.1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_031632.1_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_rootSZ_3w_Nod_inocul1,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_032478.0.1_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_032756.2_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_032978.1_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_034015.1_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_034705.2_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_035265.1_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>root_28dpimycorrhized,WT_nodule_3w_inocul14,cyclops_root_nodule_3w_inocul21_mean,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_036019.1_at</td><td>S</td><td>8</td><td>6</td><td>2</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>WT_root_tip_3w_uninocul,WT_rootSZ_3w_Nod_inocul1</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_036123.1_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_036132.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_038315.0.1_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>root_4dpicontrol,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_038349.1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_038906.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_039076.1_s_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>root_28dpimycorrhized,WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_040145.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_040148.1_s_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,cyclops_root_3w_inocul_mean,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_040352.1.1_s_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_040896.2_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_041824.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_041877.1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_042079.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_043129.1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_045106.0.2_s_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_047343.1.1_at</td><td>S</td><td>8</td><td>8</td><td>0</td><td>root_28dpimycorrhized,har1_root_3w_inocul3,WT_root_3w_inocul3,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,WT_rootSZ_3w_Nod_inocul1,WT_rootSZ_3w_inocul1,nin_rootSZ_3w_inocul1</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_047385.1_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_rootSZ_3w_inocul1,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_047519.2_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_047780.1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_048187.1_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_048568.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_049490.1_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_049993.0.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_050665.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_051727.2_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_052417.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_052894.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Root</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_052942.1_s_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized,WT_rootSZ_3w_Nod_inocul1</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_054147.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_054644.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_055515.1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_055945.1_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_056178.1_at</td><td>S</td><td>5</td><td>5</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_056560.1_s_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_057146.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_057413.1.1_x_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_057589.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_058753.1.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>WT_root_3w_nodC_inocul1</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_059578.1_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_060220.1_x_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_060603.2_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_061122.1_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_062020.2_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_062290.2_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_063471.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_064584.1_at</td><td>S</td><td>2</td><td>0</td><td>2</td><td>-</td><td>Root,Root0h</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_065008.0.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_065424.1.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_065900.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_067102.2_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_068410.2_s_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_068749.1_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_068754.2_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_069846.2_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_069889.1.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_070006.1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_071490.1_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_072428.2_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>WT_rootSZ_3w_Nod_inocul1</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_073377.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_075101.1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_076115.2_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_076349.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_077028.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_077750.1.1_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_078463.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_078666.1_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_083867.1_s_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_084071.2_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>WT_rootSZ_3w_Nod_inocul1</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_084449.1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_085067.1_x_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_087207.1_x_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_087528.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_088446.1_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_090591.1.1_s_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_090974.1_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_092498.1_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_095176.1_at</td><td>S</td><td>11</td><td>11</td><td>0</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized,WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_095667.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_096059.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_096493.1_s_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_098322.1_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_098483.1_s_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>WT_root_tip_3w_uninocul,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_100774.1.1_s_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_101257.1_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>WT_rootSZ_3w_Nod_inocul1</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_103502.1.1_x_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>WT_rootSZ_3w_Nod_inocul1</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_103858.1_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>WT_root_tip_3w_uninocul</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_104495.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_105045.1_s_at</td><td>S</td><td>5</td><td>5</td><td>0</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized,WT_rootSZ_3w_Nod_inocul1</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_105063.1.1_x_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_106154.1_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_108080.1_s_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_110147.1_s_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_113526.1_s_at</td><td>S</td><td>8</td><td>8</td><td>0</td><td>root_28dpimycorrhized,WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_113851.1.1_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_115914.1_at</td><td>S</td><td>5</td><td>5</td><td>0</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized,WT_rootSZ_3w_Nod_inocul1</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_116234.1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_116235.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_116235.1_x_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_116565.1_s_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>sen1_nodule_3w_inocul21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_117371.1_x_at</td><td>S</td><td>7</td><td>5</td><td>2</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized,WT_rootSZ_3w_Nod_inocul1</td><td>Root,Root0h</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_117470.2_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_123433.1_s_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_123763.1_at</td><td>S</td><td>5</td><td>5</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_129979.1_s_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_130412.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_132529.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>WT_root_3w_nodC_inocul1</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_134195.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_134727.1_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_135129.1_at</td><td>S</td><td>4</td><td>4</td><td>0</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_136836.1_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_138351.1_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_138806.1_x_at</td><td>S</td><td>4</td><td>4</td><td>0</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_141695.1_s_at</td><td>S</td><td>4</td><td>4</td><td>0</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_141991.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>root_28dpimycorrhized</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_143582.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_144517.1_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_146926.1.1_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">Ljwgs_147549.1_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">mll4266_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">mll6211_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">mll8202_s_at</td><td>S</td><td>10</td><td>10</td><td>0</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized,WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">mlr4574_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">mlr5805_s_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">mlr5945_at</td><td>S</td><td>1</td><td>1</td><td>0</td><td>Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TC10035_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>root_4dpicontrol,WT_root_6w_5mM_nitrate,WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TC11332_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">TC12134_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TC14583_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TC14912_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>WT_rootSZ_3w_Nod_inocul1</td></tr>
+<tr>
+<td style="text-align:center">TC18152_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TC18872_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">TC18978_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">TC19241_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>Nod21</td></tr>
+<tr>
+<td style="text-align:center">TC19366_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">TC9239_at</td><td>S</td><td>9</td><td>9</td><td>0</td><td>har1_root_3w_inocul3,WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,cyclops_root_3w_uninocul_mean,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TC9400_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TC9637_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">TM0286.8_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">TM0374.17_s_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TM0446.19_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">TM0448.2_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">TM0536.22.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">TM0639.10.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">TM0727.10_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>WT_rootSZ_3w_Nod_inocul1</td></tr>
+<tr>
+<td style="text-align:center">TM0840.1_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">TM0890.19.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">TM0954.8_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TM0990.26_at</td><td>S</td><td>5</td><td>0</td><td>5</td><td>-</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td></tr>
+<tr>
+<td style="text-align:center">TM1130.29_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TM1201.16_at</td><td>S</td><td>3</td><td>3</td><td>0</td><td>Root,Root0h,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TM1237.45_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TM1513.5_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TM1515.11_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TM1519.31_s_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TM1555.25_at</td><td>S</td><td>2</td><td>2</td><td>0</td><td>Root,Root0h</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TM1614.14.1_at</td><td>S</td><td>6</td><td>6</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TM1664.15.1_at</td><td>S</td><td>4</td><td>0</td><td>4</td><td>-</td><td>root_4dpicontrol,root_4dpimycorrhized,root_28dpicontrol,root_28dpimycorrhized</td></tr>
+<tr>
+<td style="text-align:center">TM1678.3_s_at</td><td>S</td><td>3</td><td>0</td><td>3</td><td>-</td><td>Root,Root0h,Nod21</td></tr>
+<tr>
+<td style="text-align:center">TM1680.21_at</td><td>S</td><td>7</td><td>7</td><td>0</td><td>WT_nodule_3w_inocul14,WT_nodule_3w_inocul21,WT_root_nodule_3w_inocul7,WT_root_nodule_3w_inocul21,sen1_nodule_3w_inocul21,sst1_nodule_3w_inocul21,Nod21</td><td>-</td></tr>
+<tr>
+<td style="text-align:center">TM1746.11.1_s_at</td><td>S</td><td>1</td><td>0</td><td>1</td><td>-</td><td>WT_rootSZ_3w_Nod_inocul1</td></tr>
+</table>
+</center><br/>
+</td><td><table style="border-collapse: collapse; text-align:center;" border="1">
+<tr>
+<td bgcolor="#ffffaa">Gene page*</td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+<tr>
+<td><a target="_blank" href="A_General_Result/A_NA_page.html">NA</a></td></tr>
+</table>
+<br/>
+</td></tr>
+</table>
+Table 3: Specific gene result: list of all the specific genes detected, the number of condition in which they are specific (all, up and down) and the respective condition names<br/>
+<br/>
+*, <span style="color:#FF8A00">NA ???: </span><span style="color:#0000ff">You can generate the gene result page(s) of the gene present in the above table with the "getGeneHtmlPage()" function. Using its result object as the  "gene.page.info" argument of the "getFullHtmlSpeCondResult()" function (function generating this page), you will have a direct link to the gene pages</span><br/>
+<br/>
+The corresponding file is : A_General_Result/A_result_specific_probeset.txt<br/>
+<br/>
+<br/>
+<span table.style="font-size:8pt">Page created by the  <a href="http://www.bioconductor.org/packages/release/bioc/">SpeCond</a>  package using hwriter under  R version 3.1.0 (2014-04-10)</span>
+<br/><br/><font size="-2">(Page generated on Sat Jun  7 10:48:52 2014 by <a href="http://www.embl.de/~gpau/hwriter/index.html">hwriter</a> 1.3)</font><br/>
+</body></html>
